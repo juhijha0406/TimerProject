@@ -1,38 +1,87 @@
-.App {
+body{
+
+background:  linear-gradient(500deg, #1d1d1c 25%, transparent 25%);
+background-color: #eee3e6;
+}
+
+.back{
+  background-image:
+radial-gradient(rgb(73, 71, 71), rgba(255,255,255,.2) 2px, transparent 40px),
+radial-gradient(rgb(51, 50, 50), rgba(255,255,255,.15) 1px, transparent 30px),
+radial-gradient(rgb(56, 56, 56), rgba(255,255,255,.1) 2px, transparent 40px),
+radial-gradient(rgba(63, 61, 61, 0.4), rgba(255,255,255,.1) 2px, transparent 30px);
+background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+z-index: 5;
+}
+
+
+.input{
+  background-color:black;
+  margin-top: 30px;
+  height: 80px;
+  background-image:
+  radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+  radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+  radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+  radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
+
+.btn{
+  margin-left: 10px;
+  width: auto;
+  height: 40px;
+}
+
+
+.mar{
+  margin-top: 10px;
+  width: 200px;
+  height: 50px;
+}
+
+.appTitle{
+  font-size: 50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  /* background: radial-gradient(1.5em 6.28571em at 1.95em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(1.5em 6.28571em at -0.45em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 1.5em 5.5em, radial-gradient(2.3em 4.57143em at 2.99em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(2.3em 4.57143em at -0.69em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 2.3em 4em, radial-gradient(3.5em 6.28571em at 4.55em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(3.5em 6.28571em at -1.05em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 3.5em 5.5em, radial-gradient(#15ffa5, #00ced1);
+  background-color: rgb(29, 31, 30);
+  background-size: 1.5em 11em, 1.5em 11em, 2.3em 8em, 2.3em 8em, 3.5em 11em, 3.5em 11em, 100% 100%;
+  background-repeat: repeat; */
+}
+  
+
+
+.container{
   text-align: center;
+  font-size: 30px;
+  margin-top: 15%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.dis1{
+  display: inline;
+ margin: 10px;
+  font-size: xx-large;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.style{
+  margin: 10px 10px;
+  font-family: fantasy;
+  color: #1d1d1c;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.style1{
+  
+    background:
+        radial-gradient(#655197 2px, transparent 3px),
+        radial-gradient(#655197 2px, transparent 3px),
+        #fff;
+    background-position: 0 0, 20px 20px;
+    background-size: 40px 40px;
+
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
