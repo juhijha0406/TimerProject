@@ -1,8 +1,7 @@
 import React , {Component}from 'react';
 import './App.css';
 import Countdownlist from './component/Countdownlist';
-//  here inside src only one compenent so ./
-// if there is  component and  conatiner then we have to do ../
+
 
 class App extends Component {
   constructor(props){
@@ -28,14 +27,14 @@ class App extends Component {
       {/* <div className='dis1'>14 days</div>
        <div className='dis1'>30 hours</div>
        <div className='dis1'>15 minutes</div>
-      //  <div className='dis1'>20 seconds</div>  this is chnge into component  in countdownlist.js file so*/}
+      //  <div className='dis1'>20 seconds</div>*/}
       <Countdownlist
        deadline = {this.state.deadline}
       />
     </div>
      <div className='input'>
        <input className='mar'placeholder='enter new date(Year date,month)' 
-       //  onChange={event => console.log('event',event.target.value) this is taking input from user on input box}
+       //  onChange={event => console.log('event',event.target.value)}
       onChange ={event => this.setState({newDeadline : event.target.value})}
     />
        <button className="btn"
